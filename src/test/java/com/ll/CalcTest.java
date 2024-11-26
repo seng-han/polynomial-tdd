@@ -9,4 +9,8 @@ public class CalcTest {
         int rs = Calc.run("3 + 5");
         assertThat(rs).isEqualTo(8);
     }
+    public void t2() {
+        int rs = Calc.run("(3 + 5) * 5");
+        assertThat(rs).isEqualTo(40);
+    }
 }
